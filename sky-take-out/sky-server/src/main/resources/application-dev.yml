@@ -1,0 +1,21 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: ${DB_PASSWORD}
+  alioss:
+    endpoint: oss-us-east-1.aliyuncs.com
+    access-key-id: LTAI5tNyjqfXf9VeCMxao1qi
+    access-key-secret: ${ALI_CLOUD_ACCESS_KEY_SECRET}
+    bucket-name: poke-delivery
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+  wechat:
+    appid: wx7517bbf7460ae813
+    secret: ${WECHAT_SECRET}
